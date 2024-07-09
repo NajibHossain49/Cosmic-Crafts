@@ -77,8 +77,9 @@
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
-    height: 1500px; 
+    height: 1048px; 
     padding-top: 20px;
+    /* border: 2px solid salmon; */
 }
 
 .Why-Web-Development-section {
@@ -200,3 +201,69 @@
 }
 
 /* Why-Web-Development-section Ends */
+
+
+/* My Inspiration Section Starts */
+
+.main-inspiration-container {
+   
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 810px; 
+    padding-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid salmon;
+
+}
+
+.my-inspiration-section {
+    width: 1140px;
+    height: 775px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration-content-wrapper {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.my-inspiration-section h3 {
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.my-inspiration-section p {
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    
+}
+
+.my-inspiration-section .iframe-container {
+    width: 100%;
+    height: 400px; 
+    margin-top: 20px;
+    border: 2px solid #ccc; 
+}
+
+.my-inspiration-section .iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* My Inspiration Section Ends */
