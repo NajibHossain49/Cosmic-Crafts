@@ -378,22 +378,73 @@
 
 
 
+/* main-footer */
 
+.main-footer {
+    width: 100%;
+    background-image: url('../style/assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 313px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-content {
+    width: 1140px;
+    text-align: center;
+    color: #fff;
+}
 
+.footer-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
 
+.social-icons {
+    margin-bottom: 20px;
+}
 
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px; /* Adjust the margin as needed */
+    transition: color 0.3s ease;
+}
 
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
 
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.contact-form input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
 
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+}
 
-
-
-
-
-
-
+.contact-form button:hover {
+    background-color: #0056b3;
+}
 
 
 
