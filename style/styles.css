@@ -213,7 +213,7 @@
     height: 810px; 
     padding-top: 20px;
     margin-bottom: 40px;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
 
 }
 
@@ -267,3 +267,136 @@
 }
 
 /* My Inspiration Section Ends */
+
+
+/* My Current Target Starts */
+
+.target-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 535px;
+    background-color: #f9f9f9; 
+    /* border: 2px solid salmon; */
+}
+.current-target-section {
+    width: 1140px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-target-section h3 {
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.current-target-section p {
+    color: rgb(13, 19, 33);
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 364px;
+    height: 299px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px; /* Adjust margin between cards */
+}
+
+.card:last-child {
+    margin-right: 0; /* Remove margin from the last card */
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    text-align: left;
+}
+
+.icon {
+    font-size: 48px; /* Adjust icon size */
+    margin-bottom: 10px;
+}
+
+.icon img {
+    width: 64px; /* Adjust image size */
+    height: 64px;
+}
+
+.card h4 {
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* My-Current-Target-Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
