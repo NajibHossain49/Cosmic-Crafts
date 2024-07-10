@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* Banner-section Starts */
@@ -70,7 +70,6 @@
 
 /* Banner-section Ends */
 
-
 /* Why-Web-Development-section Starts */
 .main-container {
     display: flex;
@@ -130,18 +129,23 @@
     background-color: #f9f9f9; 
     padding: 20px; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
-}
-
-.content-item.reverse {
-    flex-direction: row-reverse; 
+    
 }
 
 .content-item .text {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    /* border: 2px solid seagreen; */
+    margin-right: 95px;
 }
+    
+
+/* Target the second content item */
+.content-item:nth-child(2) .text {
+    margin-left: 95px; 
+}
+
 
 .content-item .text h3 {
     color: rgba(13, 19, 33, 0.7);
@@ -163,8 +167,13 @@
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 16px; 
+    
 }
-
+#contact-link {
+    text-decoration: none; 
+    color: #fff; 
+    cursor: pointer;
+}
 .content-item .text button {
     background-color: white;
     color: rgb(13, 19, 33);
@@ -181,17 +190,15 @@
     cursor: pointer;
     align-self: flex-start; 
     margin-top: 10px; 
+    
 }
 
 .content-item .image {
     max-width: 200px;
     height: auto; 
     display: block;
-}
-
-.content-item.reverse .image {
-    margin-right: 20px;
-    margin-left: 0;
+    /* border: 2px solid seagreen; */
+    margin-right: 50px;
 }
 
 .content-item .image img {
@@ -205,15 +212,12 @@
 /* My Inspiration Section Starts */
 
 .main-inspiration-container {
-   
     display: flex;
-    justify-content: center; 
-    align-items: flex-start; 
-    height: 810px; 
+    justify-content: center;
+    align-items: flex-start;
+    height: 810px;
     padding-top: 20px;
     margin-bottom: 40px;
-    /* border: 2px solid salmon; */
-
 }
 
 .my-inspiration-section {
@@ -249,20 +253,30 @@
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 40px;
-    
 }
 
 .my-inspiration-section .iframe-container {
     width: 100%;
-    height: 400px; 
+    height: 400px;
     margin-top: 20px;
-    border: 2px solid #ccc; 
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.iframe-wrapper {
+    padding: 15px; 
+    height: 100%;
+    width: 100%;
+     
 }
 
 .my-inspiration-section .iframe-container iframe {
     width: 100%;
     height: 100%;
     border: none;
+    border-radius: 10px; 
+    
 }
 
 /* My Inspiration Section Ends */
@@ -327,9 +341,7 @@
 
 .card:last-child {
     margin-right: 0; 
-}
-.card:last-child {
-    margin-right: 0; 
+
 }
 
 .card:nth-child(1) {
@@ -408,7 +420,6 @@
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.6);
     
-
 }
 
 .footer-content {
